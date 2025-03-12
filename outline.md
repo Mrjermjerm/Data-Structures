@@ -2,27 +2,30 @@
 ## I. Welcome
 * Introduction
 * Contact Information
-## II. Stack or Queue _(pick one)_
+## II. Stack
 * Introduction
-* ...
-* _(replace these lines with headings that you'd use to teach this data structure)_
-* ...
+* Push and Pop
+* Undo
+* Peek
 * Efficiency of common operations
 * Example Problem
 * Problem to Solve
-## III. Set or Linked List _(pick one)_
+## III. Linked List
 * Introduction
-* ...
-* _(replace these lines with headings that you'd use to teach this data structure)_
-* ...
+* Structure of a Linked List
+* Adding to a Linked List
+* Removing from a Linked List
+* Retreiving from a Linked List
 * Efficiency of common operations
 * Example Problem
 * Problem to Solve
 ## IV. Tree
 * Introduction
-* ...
-* _(replace these lines with headings that you'd use to teach this data structure)_
-* ...
+* Binary Trees 
+* Binary Search Trees
+* Binary Balanced Trees
+* Inserting into a BST
+* Traversing a BST
 * Efficiency of common operations
 * Example Problem
 * Problem to Solve
