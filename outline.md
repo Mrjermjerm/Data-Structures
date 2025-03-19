@@ -5,7 +5,7 @@
 ## II. Stack
 * Introduction
 * Push and Pop
-* Undo
+* Length
 * Peek
 * Efficiency of common operations
 * Example Problem
