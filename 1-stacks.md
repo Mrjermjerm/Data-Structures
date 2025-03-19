@@ -160,6 +160,7 @@ while (choice != 0){
                 }
             }
             break;
+            
         default:
             Console.WriteLine("Please select a choice 1 - 4");
             break;
