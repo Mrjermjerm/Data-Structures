@@ -191,6 +191,6 @@ class Program
 }
 ```
 
-You can check your code with the solution here: [Solution]()
+You can check your code with the solution here: [Solution](stacks_problem_solution)
 
 [Back to Welcome Page](0-welcome.md)
