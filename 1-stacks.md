@@ -93,7 +93,7 @@ A stack can be represented using an array of various data types. Because stack i
 
 ## Example Problem: Task Manager
 
-Lets say we have a set of task that need to be completed, and to help us stay focused we create a stack so can only complete one at a time. 
+Lets say we have a set of task that need to be completed, and to help us stay focused we create a stack so we can only complete one at a time. 
 
 Task Manager Requirements:
 - Allow user to add a task
