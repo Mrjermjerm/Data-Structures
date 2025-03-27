@@ -20,7 +20,7 @@ When creating a stack we need to specify the type of data we will be storing suc
 
 To **`Push(value)`** to a stack is to add to the stack. Everytime we push an element we are `"stacking"` that element onto the prievious. To add to a stack is as simple as calling the stack dot push with the value.
 
-```csharp
+```Csharp
 Stack<int> values = new Stack<int>();
 
 // Add elements to Stack
@@ -34,7 +34,7 @@ values.Push(40);
 
 To Remove, we call the stack then `Pop()`. Remeber there is an order to a stack. For something to be removed we need to remove from the top or the last. Remeber `LIFO`, Last In First Out. This can hinder us from accessing anything at the bottom but the benefit of stacks are to remeber where we've been. If we remove from the stack we created before.
 
-```csharp
+```Csharp
 // Remove 3 elements from Stack
 values.Pop(); // Popped 40
 values.Pop(); // Popped 30
