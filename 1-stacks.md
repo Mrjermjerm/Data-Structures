@@ -111,6 +111,6 @@ We want to provide a word then have it spelled backwards. For example apple spel
 
 Go here to work out the problem: [Problem](Stacks/stacks_problem/Program.cs)
 
-You can check your code with the solution here: [Solution](Stacks/stacks_solution/Solution.cs)
+You can compare your code with the solution here: [Solution](Stacks/stacks_solution/Solution.cs)
 
 [Back to Welcome Page](0-welcome.md)

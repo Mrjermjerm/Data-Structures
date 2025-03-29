@@ -147,17 +147,25 @@ Console.WriteLine(found?.Value);
 |.Remove(value)|Remove at the center|O(n)|
 |.Find(value)|Find a value or Node|O(n)|
 
-## Example Problem: Task Manager
+## Example Problem: Music Playlist
+Lets say we want to make a music playlist. We can use a linked-list to organize our music and play from either the beginning or end. 
+
+Music Playlist Requirements:
+- Allow user to add a song at any location
+- Remove song
+- Search for song
+- Print playlist
+
+You can go here to see how a stack can be used to solve this problem: [Example Problem](Linked-List/linked-list_example_problem/Program.cs)
 
 
 
-
-## Problem to Solve: Reverse Words
+## Problem to Solve: 
 
 
 
 Go here to work out the problem: [Problem]()
 
-You can check your code with the solution here: [Solution]()
+You can compare your code with the solution here: [Solution]()
 
 [Back to Welcome Page](0-welcome.md)

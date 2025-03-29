@@ -1,12 +1,6 @@
 ﻿
 using System.Runtime.InteropServices.Marshalling;
 
-class Node
-{
-
-}
-
-
 class Program
 {
     static void Main()

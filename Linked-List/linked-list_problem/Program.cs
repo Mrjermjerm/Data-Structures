@@ -1,9 +1,6 @@
 ﻿
 
-
-class Program
-{
-    static void Main()
+static void Main()
     {
         Stack<char> stackOfLetters = new Stack<char>();
         string word = "apple";
@@ -13,4 +10,3 @@ class Program
         // Remove this comment and uncomment the next line to test
         // Console.Write($"{word} spelled backwards is ");
     }
-}
