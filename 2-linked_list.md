@@ -141,7 +141,8 @@ Console.WriteLine(found?.Value);
 |:------------|:------------------:|-------------:|
 |.AddFirst(value)|Add at the beginng|O(1)|
 |.AddLast(value)|Add at the end|O(1)|
-|.AddBefore(value) OR .AddAfter(value)|Add in the center|O(n)|
+|.AddBefore(value, newValue)| Add in the center|O(n)
+.AddAfter(value, newValue)|Add in the center|O(n)|
 |.RemoveFirst()|Remove at the beginng|O(1)|
 |.RemoveLast()|Remove at the end|O(1)|
 |.Remove(value)|Remove at the center|O(n)|
@@ -158,7 +159,7 @@ Music Playlist Requirements:
 
 You can go here to see how a stack can be used to solve this problem: [Example Problem](Linked-List/linked-list_example_problem/Program.cs)
 
-
+To see Linked-List Methods in action go here: [Walkthrough](Stacks/stacks_walkthrough/Program.cs)
 
 ## Problem to Solve: 
 

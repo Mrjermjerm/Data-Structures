@@ -90,7 +90,6 @@ A stack can be represented using an array of various data types. Because stack i
 |   Peek()   | Looks at the Last or Top element of the Stack | O(1) |
 
 
-
 ## Example Problem: Task Manager
 
 Lets say we have a set of task that need to be completed, and to help us stay focused we create a stack so we can only complete one at a time. 
@@ -104,6 +103,7 @@ Task Manager Requirements:
 
 You can go here to see how a stack can be used to solve this problem: [Example Problem](Stacks/stacks_example_problem/Program.cs)
 
+To see Stacks Methods in action go here: [Walkthrough](Stacks/stacks_walkthrough/Program.cs)
 
 ## Problem to Solve: Reverse Words
 
