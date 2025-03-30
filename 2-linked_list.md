@@ -166,12 +166,12 @@ You can go here to see how a stack can be used to solve this problem: [Example P
 
 To see Linked-List Methods in action go here: [Walkthrough](Linked-List/linked-list_walkthrough/Program.cs)
 
-## Problem to Solve: 
+## Problem to Solve: Train Scheduling System
 
-
+Your job is to build a program that can effectively manage scheduling train traffic for a city. Your program needs to be fast and able to manipulate data easily. A lot is riding on this project. Are you up to it?
 
 Go here to work out the problem: [Problem](Linked-List/linked-list_problem/Program.cs)
 
-You can compare your code with the solution here: [Solution](Linked-List/linked-list_solution/Solution.cs)
+You can compare your code with the solution here: [Solution](Linked-List/linked-list_solution/LinkedListSolution/Program.cs)
 
 [Back to Welcome Page](0-welcome.md)
