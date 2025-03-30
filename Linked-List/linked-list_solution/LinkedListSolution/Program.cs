@@ -5,10 +5,12 @@ using System.Collections;
 using Microsoft.VisualBasic;
 
 
+
 class Program
 {
-     static void Main()
+    static void Main()
     {
+        // Create linked list
         LinkedList<string> trainSchedule = new LinkedList<string>();
 
         Console.WriteLine("Train Scheduling System for the day");
@@ -24,7 +26,7 @@ class Program
             Console.Write("Enter your choice: ");
 
             if (!int.TryParse(Console.ReadLine(), out choice)){
-                Console.WriteLine("Invalid input! Please enter a number between 0 - 4.");
+                Console.WriteLine("Invalid input! Please enter a number between 0 - 3.");
                 continue; 
             }
 
@@ -72,13 +74,13 @@ class Program
                             Console.WriteLine(_event);
                         }
 
-                        // Add new song after song in playlist
-                        Console.WriteLine("\nEnter the title of the song you would like to place the new song after: ");
+                        // Add new event after event in schedule
+                        Console.WriteLine("\nEnter the event you would like to schedule the new event after: ");
                         var newEvent = Console.ReadLine();
 
                         if (string.IsNullOrEmpty(newEvent))
                         {
-                            Console.WriteLine("Song to place after cannot be empty.");
+                            Console.WriteLine("Event to place after cannot be empty.");
                             break;
                         }
 
@@ -86,25 +88,25 @@ class Program
                         
                         if (newEvent != null) {
                             trainSchedule.AddAfter(eventNode!, time);
-                            Console.WriteLine("Your new song has been added");
+                            Console.WriteLine("Your new event has been added");
                         } else {
-                            Console.WriteLine("Song not in playlist");
+                            Console.WriteLine("Event not in schedule");
                             break;
                         }
                     } else {
                         trainSchedule.AddLast(time);
-                        Console.WriteLine("Song added");
+                        Console.WriteLine("event added");
                     }
                     break;
 
                 // Here we can remove the most recent task added
                 case 2:
-                    Console.WriteLine("\nEnter the title of the song you would like to remove: ");
+                    Console.WriteLine("\nEnter the event you would like to remove: ");
                     var eventRemove = Console.ReadLine();
 
                     if (string.IsNullOrEmpty(eventRemove))
                     {
-                        Console.WriteLine("Song title cannot be empty.");
+                        Console.WriteLine("Event cannot be empty.");
                         break;
                     }
 
@@ -115,7 +117,7 @@ class Program
                         Console.WriteLine($"{eventRemove} has been removed from task.");
                     }
                     else {
-                        Console.WriteLine("Song not in playlist");
+                        Console.WriteLine("Event not in schedule");
                     }
                     break;
 

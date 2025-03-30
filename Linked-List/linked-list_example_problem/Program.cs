@@ -22,7 +22,7 @@ class Program
             Console.Write("Enter your choice: ");
 
             if (!int.TryParse(Console.ReadLine(), out choice)){
-                Console.WriteLine("Invalid input! Please enter a number between 0 - 4.");
+                Console.WriteLine("Invalid input! Please enter a number between 0 - 3.");
                 continue; 
             }
 
