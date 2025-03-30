@@ -3,6 +3,7 @@
 A liked list is similiar to a dynamic array in the sense that they are both linear data structures used to store collections of element. However, unlike arrays, linked lists do not require contiguous memory allocation, making them more adaptable for certain use cases. Some key purposes of linked list include **`dynamic memory allocation`**, **`efficient insertions and deletions`**, and **`easy manipulation`**. 
 
 ## Structure 
+
 First lets tke a look at how a dynamic array is structured. To manipulate data requires us to copy everything to another array one at a time, which is a **`O(n)`** notation. This can become a problem if we had a very large array. We are also limited to the space that we set with memory potentially being unused. Via the picture below.
 
 ![image](Images/array.png)
@@ -18,6 +19,7 @@ https://www.softwaretestinghelp.com/doubly-linked-list-2/ --->
 ## Operations
 
 ### Insert Head
+
 We call the first node **`Head`** and by doing this we can then traverse through our list. To traverse backwards we call our last node **`Tail`**.
 
 To insert data we only need to change where our pointers are directed. 
@@ -36,6 +38,7 @@ https://www.softwaretestinghelp.com/doubly-linked-list-2/ --->
 There is a special case that exists for inserting at the head (and also inserting at the tail). If the linked list is empty (head == null) then all we have to do is set both the head and the tail to the new node we created.
 
 #### Method to Add at the beginning
+
 C# has built in linked-list at your diposal with methods. To create a linked-list and a node, do the following. Using the inbuilt classes can make your code simpliar and easier to use. To add at the beginning you call **``AddFirst(value)``**. 
 
 ```Csharp
@@ -51,6 +54,7 @@ linkedList.AddFirst(1);
 ```
 
 ### Insert Tail
+
 Inserting at the tail is almost identical as inserting at the head.
 
  1. Create a new node (we will call it newNode)
@@ -63,6 +67,7 @@ Inserting at the tail is almost identical as inserting at the head.
 https://www.softwaretestinghelp.com/doubly-linked-list-2/ --->
 
 #### Method to add at the end
+
 The command to add at the end is **``AddLast(value)``**. 
 
 ```Csharp
@@ -159,14 +164,14 @@ Music Playlist Requirements:
 
 You can go here to see how a stack can be used to solve this problem: [Example Problem](Linked-List/linked-list_example_problem/Program.cs)
 
-To see Linked-List Methods in action go here: [Walkthrough](Stacks/stacks_walkthrough/Program.cs)
+To see Linked-List Methods in action go here: [Walkthrough](Linked-List/linked-list_walkthrough/Program.cs)
 
 ## Problem to Solve: 
 
 
 
-Go here to work out the problem: [Problem]()
+Go here to work out the problem: [Problem](Linked-List/linked-list_problem/Program.cs)
 
-You can compare your code with the solution here: [Solution]()
+You can compare your code with the solution here: [Solution](Linked-List/linked-list_solution/Solution.cs)
 
 [Back to Welcome Page](0-welcome.md)
