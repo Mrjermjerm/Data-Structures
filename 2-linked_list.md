@@ -162,7 +162,7 @@ Music Playlist Requirements:
 - Search for song
 - Print playlist
 
-You can go here to see how a stack can be used to solve this problem: [Example Problem](Linked-List/linked-list_example_problem/Program.cs)
+You can go here to see how a Linked-List can be used to solve this problem: [Example Problem](Linked-List/linked-list_example_problem/Program.cs)
 
 To see Linked-List Methods in action go here: [Walkthrough](Linked-List/linked-list_walkthrough/Program.cs)
 

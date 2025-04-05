@@ -130,7 +130,7 @@ class Program
                     break;
 
                 default:
-                    Console.WriteLine("Please select a choice 1 - 4");
+                    Console.WriteLine("Please select a choice 1 - 3");
                     break;
             }
         }  
