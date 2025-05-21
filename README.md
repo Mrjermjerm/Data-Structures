@@ -1,7 +1,7 @@
 # CSE 212 Final Project
 
 1. Examine the requirements for the whole project at [W10 Prepare](https://byui-cse.github.io/cse212-csharp/lesson10/prepare-alt)
-2. Look at the outline requirements [W10 Prove](https://byui-cse.github.io/cse212-csharp/lesson10/prove-alt)
+2. Look at the outline requirements W10 Prove
 3. Create your outline in the [outline.md](outline.md) file & submit it via canvas W10 Prove
 4. Create one of your data structure pages and submit the link for the W11 Prove
 5. Meet with your instructor to get feedback on your work so far either in class or via office appointment
